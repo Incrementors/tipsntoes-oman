@@ -1,0 +1,9 @@
+# Staging mock-up: block all crawling.
+User-agent: *
+Disallow: /
+
+# --- Production version (at launch on tipsntoesoman.com) ---
+# User-agent: *
+# Disallow: /wp-admin/
+# Allow: /wp-admin/admin-ajax.php
+# Sitemap: https://www.tipsntoesoman.com/sitemap.xml
